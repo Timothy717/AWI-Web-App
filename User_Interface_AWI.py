@@ -176,7 +176,7 @@ input_df = user_input_features()
 
     
 # Kombination der Input_Features mit dem Datensatz
-immo_data_raw = pd.read_csv('imputed_all.csv')
+immo_data_raw = pd.read_csv('imputed_all_backup.csv')
 immo_data = immo_data_raw.drop(columns=['angebotspreis'])
 df = pd.concat([input_df,immo_data],axis=0)
 
