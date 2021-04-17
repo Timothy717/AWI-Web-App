@@ -76,7 +76,6 @@ def user_input_features():
                     'Sonstige',
                     'Mehrfamilienhaus',
                     'Erdgeschosswohnung',
-                    'Erdgeschosswohnung',
                     'Dachgeschosswohnung',
                     'Zweifamilienhaus',
                     'Wohnung',
