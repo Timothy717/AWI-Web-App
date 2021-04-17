@@ -3,8 +3,8 @@ import pandas as pd
 import numpy as np
 import pickle
 
-#from pandas_profiling import ProfileReport
-#from streamlit_pandas_profiling import st_profile_report
+from pandas_profiling import ProfileReport
+from streamlit_pandas_profiling import st_profile_report
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_squared_error
@@ -234,6 +234,6 @@ if st.button('Graphische Datenanalyse'):
     
 
     # EDA
-#if st.button('Explorative Datenanalyse'):
-    #load_pr = pickle.load(open('pr.pkl', 'rb'))
-    #st_profile_report(load_pr)
+if st.button('Explorative Datenanalyse'):
+    load_pr = pickle.load(open('pr.pkl', 'rb'))
+    st_profile_report(load_pr)
