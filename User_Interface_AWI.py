@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 import pickle
 
-from pandas_profiling import ProfileReport
+#from pandas_profiling import ProfileReport
 from streamlit_pandas_profiling import st_profile_report
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.model_selection import train_test_split
